@@ -106,6 +106,11 @@
     <None Include="AzureIoTHub.Device_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\GAB.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Microsoft.Azure.Devices.Client.UWP.dll" />
+    <Content Include="Microsoft.Azure.Devices.Shared.UWP.dll" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png">
       <InProject>false</InProject>
